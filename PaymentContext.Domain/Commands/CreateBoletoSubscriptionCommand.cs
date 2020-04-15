@@ -48,9 +48,9 @@ namespace PaymentContext.Domain.Commands
 
         public string State { get; set; }
 
-        public string Country { get; private set; }
+        public string Country { get; set; }
 
-        public string ZipCode { get; private set; }
+        public string ZipCode { get; set; }
 
         public void Validade()
         {
